@@ -15,36 +15,39 @@
 				<div>
 					<h3>Разбил или помял машину?</h3>
 					<p>Ответь на  5 вопросов <br> и получи скидку на ремонт авто 50%</p>
-					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+					<a data-fancybox data-animation-duration="700" data-src="#vic" href="javascript:;">
 						<button class="yellowBtn">Получить скидку</button>
 					</a>
-						<div style="display: none;" id="orderCall" class="animated-modal">
-							<div class="row">
+						<div style="display: none;" id="vic" class="animated-modal">
+							<div class="row vic-row">
 								<div class="col-lg-8 vik-progress">
-									<p>Вопрос 1 / 5</p>
-									<p>пройдено 20%</p>
+									<p class="title">Вопрос 1 / 5</p>
+									<p class="subtitle">пройдено 20%</p>
 									<div class="progress-line">
 										<div class="progress-yellow-line"></div>
 									</div>
 								</div>
-								<div class="col-lg-4 vik-sale">
-									
-								</div>
 								<div class="col-lg-4">
-									<p>Выберите марку автомобиля</p>
+									<div class="vic-sale">
+										<p class="vic-sale-p">Ваша скидка <b>10%</b></p>
+										<p>скидка растет с каждым ответом</p>
+									</div>
 								</div>
-								<div class="col-lg-8">
+								<div class="col-lg-4 div-input-p">
+									<p class="input-p">Введите марку автомобиля</p>
+								</div>
+								<div class="col-lg-8 div-input">
 									<input type="text" name="">
 								</div>
-								<div class="col-lg-4">
-									<p>Выберите модель автомобиля</p>
+								<div class="col-lg-4 div-input-p">
+									<p class="input-p">Введите модель автомобиля</p>
 								</div>
-								<div class="col-lg-8">
+								<div class="col-lg-8 div-input">
 									<input type="text" name="">
 								</div>
-								<div class="col-lg-5 vic-buttons">
-									<button>Назад</button>
-									<button>Далее</button>
+								<div class="col-lg-6 vic-buttons">
+									<button class="back">Назад</button>
+									<button class="forward">Далее</button>
 								</div>
 							</div>
 						</div>
@@ -191,7 +194,7 @@
 				    </div>
 				    <div id="collapseOne" class="collapse show" aria-labelledby="question1" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В своем стремлении улучшить пользовательский опыт мы упускаем, что базовые сценарии поведения пользователей могут быть в равной степени предоставлены сами себе. Перспективное планирование не дает нам иного выбора, кроме определения благоприятных перспектив.
+				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
 				      </div>
 				    </div>
 				  </div>
@@ -205,7 +208,7 @@
 				    </div>
 				    <div id="collapseTwo" class="collapse" aria-labelledby="question2" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В своем стремлении улучшить пользовательский опыт мы упускаем, что базовые сценарии поведения пользователей могут быть в равной степени предоставлены сами себе. Перспективное планирование не дает нам иного выбора, кроме определения благоприятных перспектив.
+				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
 				      </div>
 				    </div>
 				  </div>
@@ -227,13 +230,13 @@
 				    <div class="card-header" id="question4">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-				          Господа, новая модель организационной деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты.<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Не испортят ли криворукие мастера автомобиль в других местах, и не заменят ли новые детали на старые<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseFour" class="collapse" aria-labelledby="question4" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В своем стремлении улучшить пользовательский опыт мы упускаем, что базовые сценарии поведения пользователей могут быть в равной степени предоставлены сами себе. Перспективное планирование не дает нам иного выбора, кроме определения благоприятных перспектив.
+				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
 				      </div>
 				    </div>
 				  </div>
@@ -241,13 +244,13 @@
 				    <div class="card-header" id="question5">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-				          А также акционеры крупнейших компаний ассоциативно распределены по отраслям?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Не будут ли ездить на моем автомобиле по городу<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseFive" class="collapse" aria-labelledby="question5" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В своем стремлении улучшить пользовательский опыт мы упускаем, что базовые сценарии поведения пользователей могут быть в равной степени предоставлены сами себе. Перспективное планирование не дает нам иного выбора, кроме определения благоприятных перспектив.
+				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
 				      </div>
 				    </div>
 				  </div>
@@ -255,13 +258,13 @@
 				    <div class="card-header" id="question6">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-				          Господа, новая модель организационной деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты.<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Какие гарантии, что после разборки-сборки автомобиль не начнет скрипеть и не появятся “сверчки”<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseSix" class="collapse" aria-labelledby="question6" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В своем стремлении улучшить пользовательский опыт мы упускаем, что базовые сценарии поведения пользователей могут быть в равной степени предоставлены сами себе. Перспективное планирование не дает нам иного выбора, кроме определения благоприятных перспектив.
+				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
 				      </div>
 				    </div>
 				  </div>
@@ -398,6 +401,14 @@
 				</div>
 			</div>
 		</div>
+			<div class="row justify-content-around slider-reviews-arrows arrows d-lg-flex d-none">
+				<div class="col-auto">
+					<img src="img/icons/left-arrow.svg" class="prev" alt="назад">
+				</div>
+				<div class="col-auto">
+					<img src="img/icons/right-arrow.svg" class="next" alt="вперед">
+				</div>
+			</div>
 		<div class="row justify-content-center">
 			<div class="col-lg-9 text-center">
 				<h3>Зафиксируйте скидку 50% на ремонт по акции</h3>

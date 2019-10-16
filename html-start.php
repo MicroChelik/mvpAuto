@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
@@ -26,9 +27,9 @@
 						Кузовной ремонт для тех, кому важны качество, сроки, гарантии и разумная цена
 					</p>
 				</div>
-				<div class="col-lg-2 offset-lg-4 footer-div">
+				<div class="col-lg-2 offset-lg-4 col-auto footer-div">
 					<img src="img/icons/phone.svg">
-					<p>+7 (3412) 99-80-90</p>
+					<p class="mb-0">+7 (3412) 99-80-90</p>
 				</div>
 			</div>
 		</div>
