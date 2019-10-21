@@ -21,8 +21,8 @@
 						<div style="display: none;" id="vic" class="animated-modal">
 							<div class="row vic-row">
 								<div class="col-lg-8 vik-progress">
-									<p class="title">Вопрос 1 / 5</p>
-									<p class="subtitle">пройдено 20%</p>
+									<p class="title">Вопрос <span>1</span> / 5</p>
+									<p class="subtitle">пройдено <span>20%</span></p>
 									<div class="progress-line">
 										<div class="progress-yellow-line"></div>
 									</div>
@@ -33,21 +33,67 @@
 										<p>скидка растет с каждым ответом</p>
 									</div>
 								</div>
-								<div class="col-lg-4 div-input-p">
-									<p class="input-p">Введите марку автомобиля</p>
+
+
+								<form class="vic-form">
+									<div class="col-lg-4 div-input-p first-q question active">
+										<p class="input-p">Введите марку автомобиля</p>
+									</div>
+									<div class="col-lg-8 div-input first-q question active">
+										<input type="text" name="" id="mark">
+									</div>
+									<!-- <div class="col-lg-4 div-input-p first-q question active">
+										<p class="input-p">Введите модель автомобиля</p>
+									</div>
+									<div class="col-lg-8 div-input first-q question active">
+										<input type="text" name="">
+									</div> -->
+
+									<div class="col-lg-4 div-input-p second-q question">
+										<p class="input-p">Введите модель автомобиля</p>
+									</div>
+									<div class="col-lg-8 div-input second-q question">
+										<input type="text" name="" id="model">
+									</div>
+
+									<div class="col-lg-4 div-input-p third-q question">
+										<p class="input-p">Введите пробег автомобиля</p>
+									</div>
+									<div class="col-lg-8 div-input third-q question">
+										<input type="text" name="" id="km">
+									</div>
+
+									<div class="col-lg-4 div-input-p fours-q question">
+										<p class="input-p">Что нужно отремонтировать</p>
+									</div>
+									<div class="col-lg-8 div-input fours-q question">
+										<input type="text" name="" id="recover">
+									</div>
+
+									<div class="col-lg-4 div-input-p fives-q question">
+										<p class="input-p">Автомобиль застрахован</p>
+									</div>
+									<div class="col-lg-8 div-input fives-q question">
+										<select>
+											<option>да</option>
+											<option>нет</option>
+										</select>
+									</div>
+								</form>
+
+								<div class="col-lg-12 final">
+									<p>
+										Чтобы зафиксировать скидку, нажмите на кнопку и перейдите по ссылке в диалог Вконтакте с нашим специалистом.
+									</p>
+									<p>
+										<a href="" target="_blank">Зафиксировать скидку</a>
+									</p>
 								</div>
-								<div class="col-lg-8 div-input">
-									<input type="text" name="">
-								</div>
-								<div class="col-lg-4 div-input-p">
-									<p class="input-p">Введите модель автомобиля</p>
-								</div>
-								<div class="col-lg-8 div-input">
-									<input type="text" name="">
-								</div>
+
+
 								<div class="col-lg-6 vic-buttons">
-									<button class="back">Назад</button>
-									<button class="forward">Далее</button>
+									<button id="back" class="one">Назад</button>
+									<button class="one" id="forward">Далее</button>
 								</div>
 							</div>
 						</div>
@@ -64,7 +110,20 @@
 				<p class="fix-p">
 					Для этого запишитесь на бесплатную оценку эксперта сейчас
 				</p>
-				<button class="yellowBtn">Получить скидку 50% сейчас</button>
+				<a data-fancybox data-animation-duration="700" data-src="#sale" href="javascript:;">
+					<button class="yellowBtn">Получить скидку 50% сейчас</button>
+				</a>
+					<div style="display: none;" id="sale" class="animated-modal">
+						<form class="row sale-form" action="send.php" method="post" id="sale-form">
+							<div class="col-12">
+								<p>Заполните поля для получения скидки</p>
+								<input type="text" placeholder="Имя" required="" name="name">
+								<input type="tel" placeholder="Номер телефона" required="" name="phoneNumber">
+								<input type="mail" placeholder="Email" required="" name="email">
+								<input type="submit" value="Отправить" name="">
+							</div>
+						</form>
+					</div>
 			</div>
 		</div>
 	</div>
@@ -275,7 +334,9 @@
 			<div class="col-lg-9 text-center">
 				<h3>Зафиксируйте скидку 50% на ремонт по акции</h3>
 				<p class="fix-p">Для этого запишитесь на бесплатную оценку эксперта сейчас</p>
-				<button class="blackBtn">Получить скидку 50% сейчас</button>
+				<a data-fancybox data-animation-duration="700" data-src="#sale" href="javascript:;">
+					<button class="blackBtn">Получить скидку 50% сейчас</button>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -413,7 +474,9 @@
 			<div class="col-lg-9 text-center">
 				<h3>Зафиксируйте скидку 50% на ремонт по акции</h3>
 				<p class="fix-p">Для этого запишитесь на бесплатную оценку эксперта сейчас</p>
-				<button class="yellowBtn">Получить скидку 50% сейчас</button>
+				<a data-fancybox data-animation-duration="700" data-src="#sale" href="javascript:;">
+					<button class="yellowBtn">Получить скидку 50% сейчас</button>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -719,7 +782,9 @@
 			<div class="col-lg-9 text-center">
 				<h3>Зафиксируйте скидку 50% на ремонт по акции</h3>
 				<p class="fix-p">Для этого запишитесь на бесплатную оценку эксперта сейчас</p>
-				<button class="blackBtn">Получить скидку 50% сейчас</button>
+				<a data-fancybox data-animation-duration="700" data-src="#sale" href="javascript:;">
+					<button class="blackBtn">Получить скидку 50% сейчас</button>
+				</a>
 			</div>
 		</div>
 	</div>
