@@ -6,9 +6,9 @@ $message = 'Звонок заказал: ' . $name . ". Номер телефо�
 $headers = 'From: mrpicklericklez@yandex.ru' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
  
-if(mail("otec-akk@mail.ru", "Заявка на звонок с сайта mvpAuto", $message, $headers)):
+if(mail("mvpautoperm@mail.ru", "Заявка на звонок с сайта mvpAuto", $message, $headers)):
 	// echo "message sent";
-	// header('Location: http://octaspring.ruson.su/#help',true, 301);
+	header('Location: http://perm.gen-auto.ru/',true, 301);
 else:
 	echo "message not sent";
 endif;

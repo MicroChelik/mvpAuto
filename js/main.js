@@ -4,6 +4,7 @@ $(document).ready(function(){
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		arrows: true,
+		adaptiveHeight: true,
 		prevArrow: '.prev',
 		nextArrow: '.next',
 		dots: true,
@@ -48,99 +49,139 @@ $(document).ready(function(){
 		]
 	});
 	$('#forward').click(function() {
-		console.log('da');
+		// console.log('da');
 		
 		var className = $('#forward').attr('class');
 		// alert(className);
 
 		switch (className) {
 		  case 'one':
-		    if ($('#mark')[0].checkValidity()) {
 
-		  	} else {
-		  		break;
-		  	}
+		  var x=$('#mark')[0].value;
+		  if (x.length==0){
+		  	alert('Заполните поле');
+		  	break;
+		  } else {
+		  	$('.progress-yellow-line').css("width", "40%");
+			    $('#forward').removeClass('one');
+			    $('#forward').addClass('two');
+
+			    $('#back').removeClass('one');
+			    $('#back').addClass('two');
+
+			    $('.first-q').removeClass('active');
+			    $('.second-q').addClass('active');
+
+			    $('.vic-sale-p b').html('20%');
+			    $('.title span').html('2');
+			    $('.subtitle span').html('40%');
+			    break;
+		  }
+
+		  // var isvalidate = $("#mark")[0].checkValidity();
+		  // console.log(isvalidate);
+		   //  if ($('#mark')[0].checkValidity()) {
+		    	
+		  	// } else {
+		  	// 	break;
+		  	// }
 		    // alert( 'da' );
-		    $('.progress-yellow-line').css("width", "40%");
-		    $('#forward').removeClass('one');
-		    $('#forward').addClass('two');
-
-		    $('#back').removeClass('one');
-		    $('#back').addClass('two');
-
-		    $('.first-q').removeClass('active');
-		    $('.second-q').addClass('active');
-
-		    $('.vic-sale-p b').html('20%');
-		    $('.title span').html('2');
-		    $('.subtitle span').html('40%');
-		    break;
+			    
 		  case 'two':
-		  	if ($('#model')[0].checkValidity()) {
 
-		  	} else {
+		  	var x=$('#model')[0].value;
+		 	if (x.length==0){
+		 		alert('Заполните поле');
 		  		break;
-		  	}
-		    $('.progress-yellow-line').css("width", "60%");
-		    $('#forward').removeClass('two');
-		    $('#forward').addClass('three');
+		 	} else {
+		 		$('.progress-yellow-line').css("width", "60%");
+			    $('#forward').removeClass('two');
+			    $('#forward').addClass('three');
 
-		    $('#back').removeClass('two');
-		    $('#back').addClass('three');
+			    $('#back').removeClass('two');
+			    $('#back').addClass('three');
 
-		    $('.second-q').removeClass('active');
-		    $('.third-q').addClass('active');
+			    $('.second-q').removeClass('active');
+			    $('.third-q').addClass('active');
 
-		    $('.vic-sale-p b').html('30%');
-		    $('.title span').html('3');
-		    $('.subtitle span').html('60%');
-		    break;
+			    $('.vic-sale-p b').html('30%');
+			    $('.title span').html('3');
+			    $('.subtitle span').html('60%');
+			    break;
+		 	}
+
+		  	// if ($('#model')[0].checkValidity()) {
+
+		  	// } else {
+		  	// 	break;
+		  	// }
+			    
 		  case 'three':
-		  	if ($('#km')[0].checkValidity()) {
 
-		  	} else {
+		  	var x=$('#km')[0].value;
+		 	if (x.length==0){
+		 		alert('Заполните поле');
 		  		break;
-		  	}
-		    $('.progress-yellow-line').css("width", "80%");
-		    $('#forward').removeClass('three');
-		    $('#forward').addClass('four');
+		 	} else {
+		 		$('.progress-yellow-line').css("width", "80%");
+			    $('#forward').removeClass('three');
+			    $('#forward').addClass('four');
 
-		    $('#back').removeClass('three');
-		    $('#back').addClass('four');
+			    $('#back').removeClass('three');
+			    $('#back').addClass('four');
 
-		    $('.third-q').removeClass('active');
-		    $('.fours-q').addClass('active');
+			    $('.third-q').removeClass('active');
+			    $('.fours-q').addClass('active');
 
-		    $('.vic-sale-p b').html('40%');
-		    $('.title span').html('4');
-		    $('.subtitle span').html('80%');
-		    break;
+			    $('.vic-sale-p b').html('40%');
+			    $('.title span').html('4');
+			    $('.subtitle span').html('80%');
+			    break;
+		 	}
+
+		  	// if ($('#km')[0].checkValidity()) {
+
+		  	// } else {
+		  	// 	break;
+		  	// }
+			    
 	      case 'four':
-	     	if ($('#recover')[0].checkValidity()) {
 
-		  	} else {
+	      	var x=$('#recover')[0].value;
+		 	if (x.length==0){
+		 		alert('Заполните поле');
 		  		break;
-		  	}
-		    $('.progress-yellow-line').css("width", "100%");
-		    $('#forward').removeClass('four');
-		    $('#forward').addClass('five');
+		 	} else {
+		 		$('.progress-yellow-line').css("width", "100%");
+			    $('#forward').removeClass('four');
+			    $('#forward').addClass('five');
 
-		    $('#back').removeClass('four');
-		    $('#back').addClass('five');
+			    $('#back').removeClass('four');
+			    $('#back').addClass('five');
 
-		    $('.fours-q').removeClass('active');
-		    $('.fives-q').addClass('active');
+			    $('.fours-q').removeClass('active');
+			    $('.fives-q').addClass('active');
 
-		    $('.vic-sale-p b').html('50%');
-		    $('.title span').html('5');
-		    $('.subtitle span').html('100%');
-		    break;
+			    $('.vic-sale-p b').html('50%');
+			    $('.title span').html('5');
+			    $('.subtitle span').html('100%');
+			    break;
+		 	}
+
+	    //  	if ($('#recover')[0].checkValidity()) {
+
+		  	// } else {
+		  	// 	break;
+		  	// }
+			    
 		  case 'five':
 		    $('.fives-q').removeClass('active');
 		    $('.final').addClass('active2');
 
 		    $('#back').removeClass('five');
 		    $('#back').addClass('six');
+
+		    $('#forward').addClass('d-none');
 
 
 		    // $('.progress-yellow-line').css("width", "100%");
@@ -157,11 +198,11 @@ $(document).ready(function(){
 	});
 
 	$('#back').click(function() {
-		console.log('da');
+		// console.log('da');
 		
 		var className = $('#back').attr('class');
 		// alert(className);
-		console.log(className);
+		// console.log(className);
 
 
 		switch (className) {
@@ -249,6 +290,8 @@ $(document).ready(function(){
 		    $('.final').removeClass('active2');
 		    $('.fives-q').addClass('active');
 
+		    $('#forward').removeClass('d-none');
+
 		    // $('.vic-sale-p b').html('40%');
 		    // $('.title span').html('4');
 		    // $('.subtitle span').html('80%');
@@ -257,5 +300,9 @@ $(document).ready(function(){
 		  
 		}
 
+	});
+
+	$('#vic-send').click(function(){
+		$('#vic-form').submit();
 	});
 });

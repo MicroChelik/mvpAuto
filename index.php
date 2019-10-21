@@ -35,12 +35,12 @@
 								</div>
 
 
-								<form class="vic-form">
+								<form class="vic-form" action="vic.php" method="post" id="vic-form">
 									<div class="col-lg-4 div-input-p first-q question active">
 										<p class="input-p">Введите марку автомобиля</p>
 									</div>
 									<div class="col-lg-8 div-input first-q question active">
-										<input type="text" name="" id="mark">
+										<input type="text" name="mark" id="mark">
 									</div>
 									<!-- <div class="col-lg-4 div-input-p first-q question active">
 										<p class="input-p">Введите модель автомобиля</p>
@@ -53,28 +53,28 @@
 										<p class="input-p">Введите модель автомобиля</p>
 									</div>
 									<div class="col-lg-8 div-input second-q question">
-										<input type="text" name="" id="model">
+										<input type="text" name="model" id="model">
 									</div>
 
 									<div class="col-lg-4 div-input-p third-q question">
 										<p class="input-p">Введите пробег автомобиля</p>
 									</div>
 									<div class="col-lg-8 div-input third-q question">
-										<input type="text" name="" id="km">
+										<input type="text" name="km" id="km">
 									</div>
 
 									<div class="col-lg-4 div-input-p fours-q question">
 										<p class="input-p">Что нужно отремонтировать</p>
 									</div>
 									<div class="col-lg-8 div-input fours-q question">
-										<input type="text" name="" id="recover">
+										<input type="text" name="recover" id="recover">
 									</div>
 
 									<div class="col-lg-4 div-input-p fives-q question">
 										<p class="input-p">Автомобиль застрахован</p>
 									</div>
 									<div class="col-lg-8 div-input fives-q question">
-										<select>
+										<select name="insured">
 											<option>да</option>
 											<option>нет</option>
 										</select>
@@ -86,7 +86,7 @@
 										Чтобы зафиксировать скидку, нажмите на кнопку и перейдите по ссылке в диалог Вконтакте с нашим специалистом.
 									</p>
 									<p>
-										<a href="" target="_blank">Зафиксировать скидку</a>
+										<a href="https://vk.com/app5898182_-174880331#s=488062"  id="vic-send">Зафиксировать скидку</a>
 									</p>
 								</div>
 
@@ -239,7 +239,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h2></h2>
+				<h2>Наиболее частые вопросы, которые задают нам наши клиенты?</h2>
 			</div>
 			<div class="col-12 questions">
 				<div class="accordion" id="accordionExample">
@@ -247,13 +247,13 @@
 				    <div class="card-header" id="question1">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-				           Соответствует ли  заявленная цена действительности <img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				           Соответствует ли  заявленная цена действительности? <img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseOne" class="collapse show" aria-labelledby="question1" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
+				        Наша цена по акции 3800 за элемент.
 				      </div>
 				    </div>
 				  </div>
@@ -267,7 +267,7 @@
 				    </div>
 				    <div id="collapseTwo" class="collapse" aria-labelledby="question2" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
+				        У нас точные сроки выполнения ремонта, прописанные в договоре. Вы можете почитать отзывы наших клиентов, а также приемка автомобиля проходит под видео и фото-фиксацию кузова и пробега, также в цехе и на приемке ведется круглосуточное видеонаблюдение.
 				      </div>
 				    </div>
 				  </div>
@@ -275,13 +275,13 @@
 				    <div class="card-header" id="question3">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				          Не отвалится ли краска  через неделю и попадут ли мастера  в цвет<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Не отвалится ли краска  через неделю и попадут ли мастера  в цвет?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseThree" class="collapse" aria-labelledby="question3" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, <br>а качество сертификатами профессионализма работников.
+				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников
 				      </div>
 				    </div>
 				  </div>
@@ -289,13 +289,13 @@
 				    <div class="card-header" id="question4">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-				          Не испортят ли криворукие мастера автомобиль в других местах, и не заменят ли новые детали на старые<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Не испортят ли криворукие мастера автомобиль в других местах, и не заменят ли новые детали на старые?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseFour" class="collapse" aria-labelledby="question4" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
+				        Приемка вашего автомобиля проходит под видео и фото-фиксацию кузова и пробега, также идет круглосуточное видеонаблюдение в цехе и на приемке.
 				      </div>
 				    </div>
 				  </div>
@@ -303,13 +303,13 @@
 				    <div class="card-header" id="question5">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-				          Не будут ли ездить на моем автомобиле по городу<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Не будут ли ездить на моем автомобиле по городу?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseFive" class="collapse" aria-labelledby="question5" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
+				        Круглосуточное видеонаблюдение, Ваш автомобиль будет передвигаться только по территории Автотехцентра.
 				      </div>
 				    </div>
 				  </div>
@@ -317,13 +317,115 @@
 				    <div class="card-header" id="question6">
 				      <h5 class="mb-0">
 				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-				          Какие гарантии, что после разборки-сборки автомобиль не начнет скрипеть и не появятся “сверчки”<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				          Какие гарантии, что после разборки-сборки автомобиль не начнет скрипеть и не появятся “сверчки”?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
 				        </button>
 				      </h5>
 				    </div>
 				    <div id="collapseSix" class="collapse" aria-labelledby="question6" data-parent="#accordionExample">
 				      <div class="card-body">
-				        В нашей мастерской есть собственная колористика со спектрофотометром пятидесятого поколения (lvlа), а также действует гарантия на ЛКП - 1 год. Подтверждаем используемые материалы названиями брендов, а качество сертификатами профессионализма работников.
+				        Мы соблюдаем технологии кузовного ремонта согласно правилам и нормам завода изготовителя, используем новый крепежный материал, все запчасти устанавливаемые на автомобиль сертифицированы.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="question7">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+				          Отдадут ли мне автомобиль в указанный срок?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseSeven" class="collapse" aria-labelledby="question7" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Точные сроки выполнения ремонта прописываются в договоре.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="question8">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+				          Я привык передвигаться по городу на автомобиле, что мне делать пока моя машина находится на ремонте?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseEight" class="collapse" aria-labelledby="question8" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Мы даем вам подменный автомобиль всего за 500 рублей в сутки.
+				      </div>
+				    </div>
+				  </div>
+				  <!-- <div class="card">
+				    <div class="card-header" id="question9">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+				          Не увеличится ли стоимость ремонта относительно первичной калькуляции ?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseNine" class="collapse" aria-labelledby="question9" data-parent="#accordionExample">
+				      <div class="card-body">
+				        хз
+				      </div>
+				    </div>
+				  </div> -->
+				  <div class="card">
+				    <div class="card-header" id="question10">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+				           Я не хочу оставлять свой автомобиль на неохраняемой стоянке!<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseTen" class="collapse" aria-labelledby="question10" data-parent="#accordionExample">
+				      <div class="card-body">
+				        У нас охраняемая закрытая стоянка под видеонаблюдением.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="question11">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+				          У моей машины красивый салон, не пострадает ли он при ремонте?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseEleven" class="collapse" aria-labelledby="question11" data-parent="#accordionExample">
+				      <div class="card-body">
+				        При работе салон автомобиля и его элементы укрываются пленкой.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="question12">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTvelve" aria-expanded="false" aria-controls="collapseTvelve">
+				          Насколько комфортно мне будет ремонтировать у вас свой автомобиль?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseTvelve" class="collapse" aria-labelledby="question12" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Мы гарантируем вам конфиденциальность обращения. <br>
+						Можем провести оценку ремонта по фото (Email, Viber, WhatsApp, Telegram, VK, Facebook). <br>
+						В распоряжении бесплатный эвакуатор, кстати мы можем сами забрать ваш автомобиль на нашем эвакуаторе и вернуть его вам в готовом виде. <br>
+						Если же вы хотите присутствовать лично при сдаче автомобиля в ремонт, то к вашим услугам удобная зона ожидания ( кофе, чай, Wi-Fi, пресса) и бесплатное такси, чтобы добраться до дома.
+
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="question13">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty">
+				          Как я узнаю что будут делать с моей машиной?<img src="img/icons/plus.svg" class="plus"> <img src="img/icons/minus.svg" class="minus">
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseThirty" class="collapse" aria-labelledby="question13" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Профессиональные мастера приемщики подробно объяснят все этапы ремонта вашего авто. И не бойтесь испачкаться, у нас чистая современная приемка. Кстати и наши производственные площади отличаются чистотой!
 				      </div>
 				    </div>
 				  </div>
@@ -448,7 +550,15 @@
 			<div class="col-lg-6">
 				<div class="review-card">
 					<blockquote>
-						Ремонтировалась в данном сервисе по ОСАГО. Сделали даже раньше срока, что очень радует... теперь капот как у нового авто, краска подобрана как родная. Машину вымыли как снаружи так и внутри. Мне очень понравилось обслуживание, мастер Максим профессионально отвечал на все вопросы. Также в данном сервисе можно воспользоваться подменным авто по адекватной цене. Буду рекомендовать этот сервис друзьям и знакомым. 
+						“Отправили в данную организацию по направлению от Альфастрахования по ремонту после ДТП. Машина у меня почти новая и конечно-же хотел попасть к официалам, но не получилось и отправили сюда. Был приятно удивлён, что у нас в городе начали появляться такие автосервисы. Везде всё чисто, чистые сотрудники, чистый бокс. Всё масштабно и красиво. Машину сделали в срок без нюансов. Рад что качество обслуживания наконец-то дошло и до сторонних автосервисов”.
+					</blockquote>
+					<p>Василий Алабужев</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="review-card">
+					<blockquote>
+						 “Попала в MVP auto после ДТП по ОСАГО от страховой.    Отремонтировали раньше указанного срока, восстановили  и покрасили капот, восстановили геометрию кузова, поменяли все поврежденные элементы, теперь машина как новая!!! Машину выдали чистую как снаружи, так и в салоне. Первый автосервис на моей памяти, который так аккуратно относится к авто клиента.Понравилось  и обслуживание, мастер Максим профессионально отвечал на все вопросы, дал много рекомендаций. Также , чтобы не "выпадать из жизни" можно воспользоваться "подменным" авто по адекватной!!! цене. Буду рекомендовать данный сервис , кузовной ремонт делают профессионально,  оснащение сервиса соответствует их профилю, цена и качество соответствуют!!!” 
 					</blockquote>
 					<p>Ольга Мерзлякова</p>
 				</div>
@@ -456,9 +566,17 @@
 			<div class="col-lg-6">
 				<div class="review-card">
 					<blockquote>
-						Ремонтировалась в данном сервисе по ОСАГО. Сделали даже раньше срока, что очень радует... теперь капот как у нового авто, краска подобрана как родная. Машину вымыли как снаружи так и внутри. Мне очень понравилось обслуживание, мастер Максим профессионально отвечал на все вопросы. Также в данном сервисе можно воспользоваться подменным авто по адекватной цене. Буду рекомендовать этот сервис друзьям и знакомым. 
+						“Смело могу рекомендовать этот автосервис для кузовного ремонта, проверено на личном авто. Все изменения только в лучшую сторону. Сделали машину раньше указанного срока, исправили все повреждения, проделанной работой доволен. Руководство подбирает очень грамотных спецов и держится за клиентов.”
 					</blockquote>
-					<p>Ольга Мерзлякова</p>
+					<p>Максим Акулов</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="review-card">
+					<blockquote>
+						“Страховая отправила на ремонт в данный сервис, (ремонт бампера). Отремонтировали отлично, зазоры на месте, цвет 1 в 1, в общем доволен, спасибо ребятам за работу! Отдельное спасибо мастеру Максиму, все чётко, грамотно, быстро, по делу!”
+					</blockquote>
+					<p>Ашот П.</p>
 				</div>
 			</div>
 		</div>
@@ -558,25 +676,25 @@
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process2.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Расчет стоимости работ и запчастей</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process3.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Оформление заказ-наряда</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process4.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Заказ и ожидание запчастей</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process5.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Прием автомобиля в работу</p>
 				</div>
 			</div>
 		</div>
@@ -584,31 +702,31 @@
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process6.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Окраска элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process10.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Подготовка к окраске элементов</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process9.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Рихтовка необходимых элементов</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process8.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Разборка необходимых для ремонта элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process7.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Мойка автомобиля</p>
 				</div>
 			</div>
 		</div>
@@ -616,31 +734,31 @@
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process11.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Сборка элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process12.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Проверка качества работ</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process13.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Мойка кузова и салона автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process14.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Сдача автомобиля клиенту</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process15.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Расчет клиентов за работы</p>
 				</div>
 			</div>
 		</div>
@@ -654,87 +772,87 @@
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process2.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Расчет стоимости работ и запчастей</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process3.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Оформление заказ-наряда</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process4.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Заказ и ожидание запчастей</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process5.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Прием автомобиля в работу</p>
 				</div>
-			</div>
-
+			</div>			
+			
 			<div class="col-lg-2">
 				<div class="process">
-					<img src="img/icons/process6.svg">
-					<p>Осмотр автомобиля</p>
-				</div>
-			</div>
-			<div class="col-lg-2">
-				<div class="process">
-					<img src="img/icons/process10.svg">
-					<p>Осмотр автомобиля</p>
-				</div>
-			</div>
-			<div class="col-lg-2">
-				<div class="process">
-					<img src="img/icons/process9.svg">
-					<p>Осмотр автомобиля</p>
+					<img src="img/icons/process7.svg">
+					<p>Мойка автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process8.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Разборка необходимых для ремонта элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
-					<img src="img/icons/process7.svg">
-					<p>Осмотр автомобиля</p>
+					<img src="img/icons/process9.svg">
+					<p>Рихтовка необходимых элементов</p>
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="process">
+					<img src="img/icons/process10.svg">
+					<p>Подготовка к окраске элементов</p>
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="process">
+					<img src="img/icons/process6.svg">
+					<p>Окраска элементов автомобиля</p>
 				</div>
 			</div>
 
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process11.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Сборка элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process12.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Проверка качества работ</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process13.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Мойка кузова и салона автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process14.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Сдача автомобиля клиенту</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
 				<div class="process">
 					<img src="img/icons/process15.svg">
-					<p>Осмотр автомобиля</p>
+					<p>Расчет клиентов за работы</p>
 				</div>
 			</div>
 		</div>
@@ -756,13 +874,13 @@
 			<div class="col-lg-5">
 				<div class="result-card">
 					<div class="result-number">2</div>
-					<p>100% безопасность: ...</p>
+					<p>100% безопасность</p>
 				</div>
 			</div>
 			<div class="col-lg-5 offset-lg-1">
 				<div class="result-card">
 					<div class="result-number">3</div>
-					<p>Гарантия цены: …какую цену выставили, та и будет.</p>
+					<p>Гарантия фиксированной цены</p>
 				</div>
 			</div>
 			<div class="col-lg-5">

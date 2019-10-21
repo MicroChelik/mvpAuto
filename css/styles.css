@@ -328,6 +328,7 @@ footer p{
   padding: 40px;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 .slider-reviews{
   margin-bottom: 160px;
@@ -358,6 +359,9 @@ footer p{
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+}
+.process p{
+  text-align: center;
 }
 .process img{
   margin-bottom: 14px;
@@ -680,6 +684,14 @@ button{
 @media (min-width: 1200px){
   .container{
     max-width: 1170px;
+  }
+  .first-section .container{
+    margin-top: -150px;
+  }
+}
+@media (min-width: 460px){
+  .first-section{
+    background-position-x: unset !important;
   }
 }
 @media (max-width: 960px){

@@ -18,10 +18,10 @@
 			</div>
 			<div class="col-lg-1 offset-lg-1 logos">
 				<div>
-					<a href="">
+					<a href="https://www.instagram.com/mvp.auto/" target="_blank">
 						<img src="img/instagram.png">
 					</a>
-					<a href="">
+					<a href="https://vk.com/mvpauto" target="_blank">
 						<img src="img/vk.png">
 					</a>
 				</div>
