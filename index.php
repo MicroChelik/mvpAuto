@@ -188,6 +188,7 @@
 	</div>
 </section>
 
+<div class="top-border"></div>
 
 <section class="whiteBg triangle">
 	<div class="container">
@@ -234,6 +235,8 @@
 		</div>
 	</div>
 </section>
+
+<div class="bottom-border"></div>
 
 <section class="yellowBg">
 	<div class="container">
@@ -531,6 +534,9 @@
 		</div>
 	</div>
 </section>
+
+<div class="top-border"></div>
+
 <section class="whiteBg">
 	<div class="container">
 		<div class="row">
@@ -599,6 +605,9 @@
 		</div>
 	</div>
 </section>
+
+<div class="bottom-border"></div>
+
 <section class="yellowBg">
 	<div class="container">
 		<div class="row myth-row">
@@ -668,31 +677,31 @@
 		</div>
 		<div class="row justify-content-between working-process">
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process1.svg">
 					<p>Осмотр автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process2.svg">
 					<p>Расчет стоимости работ и запчастей</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process3.svg">
 					<p>Оформление заказ-наряда</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process4.svg">
 					<p>Заказ и ожидание запчастей</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-bottom">
 					<img src="img/icons/process5.svg">
 					<p>Прием автомобиля в работу</p>
 				</div>
@@ -700,31 +709,31 @@
 		</div>
 		<div class="row justify-content-between working-process">
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-bottom">
 					<img src="img/icons/process6.svg">
 					<p>Окраска элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-left">
 					<img src="img/icons/process10.svg">
 					<p>Подготовка к окраске элементов</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-left">
 					<img src="img/icons/process9.svg">
 					<p>Рихтовка необходимых элементов</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-left">
 					<img src="img/icons/process8.svg">
 					<p>Разборка необходимых для ремонта элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-left">
 					<img src="img/icons/process7.svg">
 					<p>Мойка автомобиля</p>
 				</div>
@@ -732,25 +741,25 @@
 		</div>
 		<div class="row justify-content-between working-process mb-0">
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process11.svg">
 					<p>Сборка элементов автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process12.svg">
 					<p>Проверка качества работ</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process13.svg">
 					<p>Мойка кузова и салона автомобиля</p>
 				</div>
 			</div>
 			<div class="col-lg-2">
-				<div class="process">
+				<div class="process process-arrow-right">
 					<img src="img/icons/process14.svg">
 					<p>Сдача автомобиля клиенту</p>
 				</div>

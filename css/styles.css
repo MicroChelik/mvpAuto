@@ -679,6 +679,54 @@ button{
 #sale{
   max-width: 700px;
 }
+.top-border{
+  content: ""; 
+  height: 0;
+  border-style: solid;
+  background-color: #F1CA2A;
+  border-width: 5vw 98.792vw 0 0;
+  border-color: transparent  #fff transparent transparent;
+}
+.bottom-border{
+  height: 0;
+  border-style: solid;
+  background-color: #F1CA2A;
+  border-width: 0 0 5vw 98.792vw;
+  border-color: transparent transparent transparent #fff;
+}
+.process-arrow-right:after{
+ content: ""; 
+ background-image: url('../img/icons/arrow.png');
+ background-size: 50px 16px; 
+ width: 50px; 
+ height: 16px; 
+ background-repeat: no-repeat; 
+ margin-left: 120px; 
+ margin-top: 50px; 
+ position: absolute;
+}
+.process-arrow-bottom:after{
+ content: ""; 
+ background-image: url('../img/icons/arrowBottom.png');
+ background-size: 16px 50px; 
+ width: 16px; 
+ height: 50px; 
+ background-repeat: no-repeat; 
+ margin-top: 200px; 
+ position: absolute;
+}
+.process-arrow-left:after{
+ content: ""; 
+ background-image: url('../img/icons/arrowLeft.png');
+ background-size: 50px 16px; 
+ width: 50px; 
+ height: 16px; 
+ background-repeat: no-repeat; 
+ margin-left: -120px; 
+ margin-top: 50px; 
+ position: absolute;
+}
+
 
 
 @media (min-width: 1200px){
