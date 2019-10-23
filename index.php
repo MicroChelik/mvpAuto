@@ -437,9 +437,21 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-9 text-center">
 				<p class="fix-p">Если у вас есть особенный вопрос, на который мы не ответили, то свяжитесь с нашим менеджером. Он точно сможет Вам помочь</p>
-				<a data-fancybox data-animation-duration="700" data-src="#sale" href="javascript:;">
+				<a data-fancybox data-animation-duration="700" data-src="#questionSpec" href="javascript:;">
 					<button class="blackBtn">Задать вопрос нашему специалисту</button>
 				</a>
+					<div style="display: none;" id="questionSpec" class="animated-modal">
+						<form class="row sale-form" action="question.php" method="post" id="sale-form">
+							<div class="col-12">
+								<p>Заполните поля для отправки вопроса</p>
+								<input type="text" placeholder="Имя" required="" name="name">
+								<input type="tel" placeholder="Номер телефона" required="" name="phoneNumber">
+								<input type="mail" placeholder="Email" required="" name="email">
+								<textarea name="question" placeholder="Вопрос" required=""></textarea>
+								<input type="submit" value="Отправить" name="">
+							</div>
+						</form>
+					</div>
 			</div>
 		</div>
 	</div>
